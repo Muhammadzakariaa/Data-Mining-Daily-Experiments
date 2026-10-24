@@ -1,0 +1,3 @@
+Profil Pasien,Usia,Prediksi Diagnosa,Probabilitas Sakit (%),Kategori Risiko
+"Pasien A (Lansia, Riwayat Gejala Berat)",64,Indikasi Sakit Jantung (1),92.04%,TINGGI (Prioritas Tindakan)
+"Pasien B (Usia Produktif, Fisiologis Normal)",36,Normal / Sehat (0),8.46%,RENDAH (Observasi Rutin)
