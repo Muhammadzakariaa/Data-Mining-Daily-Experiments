@@ -187,8 +187,8 @@ def plot_kurva_roc(models_dict, X_test, y_test):
         print(f"[ROC-AUC] {nama:25s} : {roc_auc_val:.4f}")
 
     plt.plot([0, 1], [0, 1], color="grey", lw=1.5, linestyle="--")
-    plt.xlim([0.0, 1.0])
-    plt.ylim([0.0, 1.05])
+    plt.xlim(0.0, 1.0)
+    plt.ylim(0.0, 1.05)
     plt.xlabel("False Positive Rate (1 - Specificity)", fontsize=11)
     plt.ylabel("True Positive Rate (Sensitivity / Recall)", fontsize=11)
     plt.title("Kurva ROC & Perbandingan AUC Score", fontsize=13, fontweight="bold")
